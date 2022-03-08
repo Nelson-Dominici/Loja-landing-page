@@ -9,6 +9,7 @@ header{
     background-image: url("imagem/laranja-container1.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position:  78% 78%;
 }
 
 .input-div, .menu-div{
@@ -121,9 +122,7 @@ header{
         flex-direction: column;
     }
 
-    .div-buttons :first-child{
-        margin-bottom: 10px;
-    }
+
 
     #button-h-2 {
         margin-left: 0px;
@@ -132,6 +131,7 @@ header{
     #button-h-1 {
         background-color: #12c757;
         margin-right: 0px;
+        margin-bottom: 20px;
     }
     
     .p-header {
