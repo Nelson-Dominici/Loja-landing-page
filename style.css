@@ -1,29 +1,29 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 /*------------------------------------------- nav ----------------------------------------------------*/
 
-header{
+header {
     background-image: url("imagem/laranja-container1.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:  78% 78%;
+    background-position: 78% 78%;
 }
 
-.input-div, .menu-div{
+.input-div, .menu-div {
     margin-top: 20px;
 }
 
-.menu-div{
+.menu-div {
     margin-right: 100px;
     cursor: pointer;
 }
 
-.conteudo-nav{
+.conteudo-nav {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
 .input-div {
@@ -32,32 +32,32 @@ header{
     display: flex;
 }
 
-.input-div input{
+.input-div input {
     border: none;
     background-color: rgba(255, 0, 0, 0);
     outline: none;
     font-size: 16px;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: white;
     width: 160px;
     padding: 7px;
     margin-left: 2px;
 }
 
-.input-div img{
+.input-div img {
     margin-bottom: -15px;
     margin-right: 10px;
 
 }
 
-.input-div input::placeholder{
+.input-div input::placeholder {
     color: rgba(255, 255, 255, 0.603);
     font-weight: normal;
 }
 
 /*------------------------------------------- nav ----------------------------------------------------*/
 
-.conteudo-header{
+.conteudo-header {
     color: white;
     display: flex;
     justify-content: center;
@@ -66,46 +66,46 @@ header{
     margin-top: 148px;
 }
 
-.h1-header h1{
+.h1-header h1 {
     font-family: Merriweather, serif;
     font-size: 4.5rem;
     margin-bottom: 20px;
 }
 
-.p-header{
+.p-header {
     width: 700px;
     text-align: center;
     margin-bottom: 80px;
 }
 
-.p-header p{
+.p-header p {
     font-size: 1.25rem;
     font-weight: 600;
     line-height: 1.60;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
-#button-h-1{
+#button-h-1 {
     background-color: #12c757;
     margin-right: 10px;
 }
 
-#button-h-2{
+#button-h-2 {
     color: rgba(0, 0, 0, 0.664);
     margin-left: 10px;
 
 }
 
 
-#button-h-2 img{
+#button-h-2 img {
     margin-bottom: -6px;
 }
 
-.button-header{
+.button-header {
     width: 300px;
     border-radius: 25px;
     border: none;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1.1rem;
     font-weight: bolder;
     padding: 14px;
@@ -115,14 +115,91 @@ header{
 
 }
 
+/*------------------------------------------- main ----------------------------------------------------*/
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.conteudo-main {
+    display: grid;
+    grid-template-columns: 470px 470px;
+    grid-template-rows: auto auto;
+    margin-top: 50px;
+    grid-column-gap: 120px;
+    grid-row-gap: 100px;
+}
+
+.div-alimentos {
+    display: flex;
+}
+
+.texto-prato{
+    margin-left: 10px;
+}
+
+.texto-prato h3 {
+    font-family: Merriweather, serif !important;
+    font-weight: 400;
+    font-size: 1.26rem;
+    line-height: 1.2;
+}
+
+.texto-prato h1 {
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 2.4rem;
+    margin-top: 15px;
+}
+
+.texto-prato p {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+
+
 /*------------------------------------------ responsividade --------------------------------------------*/
-@media screen and (max-width: 776px) {
-    .div-buttons{
+@media screen and (max-width: 1176px) {
+    .conteudo-main {
+        grid-column-gap: 80px;
+        grid-row-gap: 60px;
+        grid-template-columns: 390px 390px;
+    }
+}
+@media screen and (max-width: 988px) {
+    .conteudo-main{
         display: flex;
         flex-direction: column;
     }
 
+    .conteudo-main{
+        width: 650px;
+    }
 
+    main {
+        height: 100%;
+    }
+
+    .div-alimentos{
+        margin-top: 20px;
+    }
+
+    #ultimo-prato{
+        margin-bottom: 40px;
+    }
+}
+
+
+@media screen and (max-width: 776px) {
+    .div-buttons {
+        display: flex;
+        flex-direction: column;
+    }
 
     #button-h-2 {
         margin-left: 0px;
@@ -133,10 +210,28 @@ header{
         margin-right: 0px;
         margin-bottom: 20px;
     }
-    
+
     .p-header {
         width: 515px;
     }
+
+    .div-alimentos{
+        display: block;
+        margin-left: 25px;
+    }
+
+    .texto-prato{
+        width: 550px;
+    }
+
+    .div-alimentos {
+        margin-top: 40px;
+    }
+    
+    #ultimo-prato {
+        margin-bottom: 70px;
+    }
+
 }
 
 @media screen and (max-width: 616px) {
@@ -158,6 +253,27 @@ header{
     }
 }
 
+@media screen and (max-width: 584px) {
+    .texto-prato {
+        width: 500px;
+    }
+
+    .conteudo-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .texto-prato {
+        width: 330px;
+    }
+
+    .div-alimentos img{
+        width: 190px;
+        height: 162px;
+    }
+}
+
+
 @media screen and (max-width: 496px) {
     .input-div {
         margin-left: 10px;
@@ -168,7 +284,7 @@ header{
     .h1-header h1 {
         font-size: 2.50rem;
     }
-    
+
     .p-header {
         width: 300px;
     }
@@ -178,3 +294,9 @@ header{
     }
 }
 
+
+@media screen and (max-width: 384px) {
+    .texto-prato {
+        width: 270px;
+    }
+}
