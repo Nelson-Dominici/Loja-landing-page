@@ -177,11 +177,11 @@ main{
 
 @media screen and (max-width: 616px) {
     .p-header {
-        width: 370px;
+        width: 365px;
     }
 
     .h1-header h1 {
-        font-size: 3.10rem;
+        font-size: 3.4rem;
     }
 
     .menu-div {
