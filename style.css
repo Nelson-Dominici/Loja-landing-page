@@ -117,34 +117,34 @@ header {
 
 /*------------------------------------------- main ----------------------------------------------------*/
 
-main{
+main {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
-.conteudo-main{
+.conteudo-main {
     display: grid;
-    grid-template-columns: 455px 455px ;
-    grid-column: auto auto ;
+    grid-template-columns: 455px 455px;
+    grid-column: auto auto;
     gap: 120px;
 }
 
-.pratos-div{
+.pratos-div {
     display: flex;
 }
 
-.texto-prato h1{
-    font-family: 'Open Sans',sans-serif;
+.texto-prato h1 {
+    font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
 }
 
-.p-main{
-    font-family: 'Open Sans',sans-serif;
+.p-main {
+    font-family: 'Open Sans', sans-serif;
 }
 
-.p-main p{
+.p-main p {
     line-height: 25px;
     font-weight: 400;
 }
@@ -198,5 +198,7 @@ main{
     .p-header {
         width: 338px;
     }
+    .h1-header h1 {
+        font-size: 3.3rem;
+    }
 }
-
