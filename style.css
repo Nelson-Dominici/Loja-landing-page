@@ -193,3 +193,10 @@ main{
         justify-content: space-around;
     }
 }
+
+@media screen and (max-width: 488px) {
+    .p-header {
+        width: 338px;
+    }
+}
+
