@@ -117,50 +117,37 @@ header {
 
 /*------------------------------------------- main ----------------------------------------------------*/
 
-main {
-    height: 100vh;
+main{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
-
-.conteudo-main {
+.conteudo-main{
     display: grid;
-    grid-template-columns: 470px 470px;
-    grid-template-rows: auto auto;
-    margin-top: 50px;
-    grid-column-gap: 120px;
-    grid-row-gap: 100px;
+    grid-template-columns: 455px 455px ;
+    grid-column: auto auto ;
+    gap: 120px;
 }
 
-.div-alimentos {
+.pratos-div{
     display: flex;
 }
 
-.texto-prato{
-    margin-left: 10px;
+.texto-prato h1{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1rem;
 }
 
-.texto-prato h3 {
-    font-family: Merriweather, serif !important;
+.p-main{
+    font-family: 'Open Sans',sans-serif;
+}
+
+.p-main p{
+    line-height: 25px;
     font-weight: 400;
-    font-size: 1.26rem;
-    line-height: 1.2;
 }
-
-.texto-prato h1 {
-    font-family: 'Open Sans', sans-serif !important;
-    font-size: 2.4rem;
-    margin-top: 15px;
-}
-
-.texto-prato p {
-    font-family: 'Open Sans', sans-serif;
-    margin-top: 20px;
-    line-height: 1.5;
-}
-
 
 
 /*------------------------------------------ responsividade --------------------------------------------*/
@@ -204,73 +191,5 @@ main {
     .conteudo-nav {
         display: flex;
         justify-content: space-around;
-    }
-}
-
-
-@media screen and (max-width: 496px) {
-    .input-div {
-        margin-left: 10px;
-        border: 1px solid white;
-        display: flex;
-    }
-
-    .h1-header h1 {
-        font-size: 2.50rem;
-    }
-
-    .p-header {
-        width: 300px;
-    }
-
-    .button-header {
-        width: 280px;
-    }
-}
-
-@media screen and (max-width: 384px) {
-    .h1-header h1 {
-        font-size: 2.20rem;
-    }
-
-    .button-header {
-        width: 250px;
-    }
-
-    .p-header {
-        width: 280px;
-    }
-
-    .menu-div{
-        display: none;
-    }
-
-    .conteudo-nav {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .input-div{
-        display: block;
-        width: 210px;
-    }
-
-    .input-div img {
-        margin-bottom: -7px;
-        margin-right: 2px;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    .h1-header h1 {
-        font-size: 2.10rem;
-    }
-
-    .p-header {
-        width: 250px;
-    }
-
-    .button-header{
-        width: 215px;
     }
 }
