@@ -168,11 +168,15 @@ header{
     }
 
     .h1-header h1 {
-        font-size: 3.2rem;
+        font-size: 3.0rem;
     }
     
     .p-header {
-        width: 330px;
+        width: 315px;
+    }
+
+    .button-header {
+        width: 280px;
     }
 }
 
