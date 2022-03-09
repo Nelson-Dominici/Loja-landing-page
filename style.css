@@ -10,6 +10,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 78% 78%;
+    background-size: cover;
 }
 
 .input-div, .menu-div {
@@ -136,7 +137,11 @@ main {
 }
 
 .texto-prato {
-    margin-left: 10px;
+    margin-left: 7px;
+}
+
+#segundo-prato {
+    margin-left: 7px;
 }
 
 .texto-prato h1 {
@@ -161,15 +166,98 @@ main {
     margin-top: 20px;
 }
 
+/*-------------------------------------------- abacate -------------------------------------------------*/
+
+.container-abacate {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+}
+
+.conteudo-abacate1 {
+    width: 50%;
+    background-color: #f0cf56;
+    color: white;
+
+}
+
+.texto-abacate1{
+    margin-left: 120px;
+    margin-top: 80px;
+}
+
+.texto-abacate1 h1{
+    font-family: Merriweather, serif !important;
+    font-size: 4.24rem;
+}
+
+.texto-abacate1 p{
+    font-family: 'Open Sans',sans-serif;
+    line-height: 35px;
+}
+
+.p-abacate{
+    margin-top: 30px;
+    width: 520px;
+}
+.p-abacate span{
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.button-abacate{
+    margin-top: 40px;
+}
+
+#button-abacate{
+    background-color: #12c757;
+    width: 260px;
+    border-radius: 25px;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    padding: 13px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.conteudo-abacate2 {
+    width: 50%;
+    background-color: #333;
+    background-image: url("imagem/container-3/img-container-3.jpeg");
+    background-position: 50% 50%;
+    background-size: cover;
+}
 
 /*------------------------------------------ responsividade --------------------------------------------*/
 
 
+
+@media screen and (max-width: 1232px){
+    .p-abacate {
+        width: 410px;
+    }
+}
+
 @media screen and (max-width: 1128px) {
     .conteudo-main {
         gap: 65px;
-        grid-template-columns: 390px 390px;
+        grid-template-columns: 391px 391px;
+    }
 
+    .texto-abacate1 h1 {
+        font-size: 3.40rem;
+    }
+
+    .texto-abacate1 {
+        margin-left: 60px;
+    }
+
+    .p-abacate {
+        width: 380px;
     }
 }
 
@@ -189,6 +277,14 @@ main {
 
     main {
         height: 100%;
+    }
+
+    #ultimo-prato {
+        margin-bottom: 50px;
+    }
+
+    .p-abacate {
+        width: 300px;
     }
 }
 
@@ -221,6 +317,46 @@ main {
     .p-main {
         margin-top: 2px;
     }
+
+
+
+    .conteudo-abacate1{
+        height: 80%;
+        display: flex;
+    }
+
+    .texto-abacate1 {
+        margin-top:30px;
+    }
+
+    .texto-abacate1 h1 {
+        font-size: 2.90rem;
+    }
+
+    .p-abacate {
+        width: 600px;
+    }
+
+    .br{
+        display: none;
+    }
+
+    .conteudo-abacate1 {
+        width: 100%;
+
+    }
+    .container-abacate {
+        display: block;
+    }
+
+
+    .conteudo-abacate2{
+        height: 800px;
+        width: 100%;
+    }
+
+
+
 }
 
 @media screen and (max-width: 616px) {
@@ -265,11 +401,11 @@ main {
         width: 270px;
     }
 
-    .menu-div{
+    .menu-div {
         display: none;
     }
 
-    .conteudo-nav{
+    .conteudo-nav {
         justify-content: center;
         align-items: center;
     }
