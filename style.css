@@ -321,12 +321,12 @@ main {
 
 
     .conteudo-abacate1{
-        height: 80%;
+        height: 68%;
         display: flex;
     }
 
     .texto-abacate1 {
-        margin-top:30px;
+        margin-top: 50px;
     }
 
     .texto-abacate1 h1 {
@@ -356,8 +356,15 @@ main {
     }
 
 
-
 }
+
+@media screen and (max-width: 672px) {
+    .p-abacate {
+        width: 95%;
+    }
+}
+
+
 
 @media screen and (max-width: 616px) {
     .p-header {
@@ -381,6 +388,10 @@ main {
 @media screen and (max-width: 560px) {
     .p-main {
         width: 330px;
+    }
+
+    .texto-abacate1 h1 {
+        font-size: 2.4rem;
     }
 }
 
@@ -415,7 +426,30 @@ main {
     }
 }
 
+@media screen and (max-width: 444px) {
+    .conteudo-abacate1 {
+        height: 75%;
+    }
+
+    .texto-abacate1 {
+        margin-left: 40px;
+    }
+
+
+
+}
+
+
 @media screen and (max-width: 416px) {
+
+    .conteudo-abacate1 {
+        height: 80%;
+    }
+
+    .texto-abacate1 h1 {
+        font-size: 2.0rem;
+    }
+
     .p-header {
         width: 300px;
     }
@@ -452,6 +486,14 @@ main {
         height: 157px
     }
 
+    .texto-abacate1 {
+        margin-left: 30px;
+    }
+
+    .texto-abacate1 h1 {
+        font-size: 1.70rem;
+    }
+
 }
 
 @media screen and (max-width: 312px) {
@@ -475,9 +517,19 @@ main {
         width: 145px;
         height: 137px;
     }
+
+    #button-abacate {
+        width: 220px;
+    }
+
 }
 
 @media screen and (max-width: 280px) {
+
+    .texto-abacate1 h1 {
+        font-size: 1.40rem;
+    }
+
     .p-header {
         width: 212px;
     }
@@ -488,5 +540,14 @@ main {
 
     .button-header {
         width: 220px;
+    }
+
+    .conteudo-abacate1 {
+        height: 85%;
+    }
+
+    #button-abacate {
+        width: 200px;
+        padding: 12px;
     }
 }
