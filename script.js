@@ -1,15 +1,15 @@
 let imgsArray = [
 
     {
-        img1:"url('imagem/img-slides/img6.jpeg')",
-        img2:"url('imagem/img-slides/img5.jpeg')",
-        img3:"url('imagem/img-slides/img4.jpeg')",
+        img1: "url('imagem/img-slides/img6.jpeg')",
+        img2: "url('imagem/img-slides/img5.jpeg')",
+        img3: "url('imagem/img-slides/img4.jpeg')",
     },
 
     {
-        img4:"url('imagem/img-slides/img3.jpeg')",
-        img5:"url('imagem/img-slides/img2.jpeg')",
-        img6:"url('imagem/img-slides/img1.jpeg')",
+        img4: "url('imagem/img-slides/img3.jpeg')",
+        img5: "url('imagem/img-slides/img2.jpeg')",
+        img6: "url('imagem/img-slides/img1.jpeg')",
     }
 ]
 
@@ -24,8 +24,8 @@ let imgC2 = document.querySelector(".imgs-divs2")
 let imgC3 = document.querySelector(".imgs-divs3")
 
 
-let radio1 =  document.querySelector("#radio1")
-let radio2 =  document.querySelector("#radio2")
+let radio1 = document.querySelector("#radio1")
+let radio2 = document.querySelector("#radio2")
 
 
 
@@ -40,7 +40,7 @@ function fecharMenu() {
 }
 
 
-function firstB () {
+function firstB() {
 
 
     imgC1.style.backgroundImage = imgsArray[0].img1
@@ -49,7 +49,7 @@ function firstB () {
 
 }
 
-function secundFunc () {
+function secundFunc() {
 
     imgC1.style.backgroundImage = imgsArray[1].img4
     imgC2.style.backgroundImage = imgsArray[1].img5
@@ -58,8 +58,8 @@ function secundFunc () {
 }
 
 
-radio1.addEventListener("click",firstB)
-radio2.addEventListener("click",secundFunc)
+radio1.addEventListener("click", firstB)
+radio2.addEventListener("click", secundFunc)
 
 
 abrir.addEventListener("click", abrirMenu);
