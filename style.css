@@ -541,19 +541,20 @@ input[type="radio"] {
 
 /* --------------------------------------fresh-container-2-----------------------------------------*/
 
-.fresh-conteudo-contaniner-2{
-    display:flex ;
+.fresh-conteudo-contaniner-2 {
+    display: flex;
     flex-direction: column;
 
     align-items: center;
     justify-content: center;
 }
 
-.fresh-container-2{
+.fresh-container-2 {
     background-image: url("Imagem/trash/back-tresh2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 100% 100%;
+    background-position: 50% 50%;
+    object-fit: cover;
     align-items: center;
     display: flex;
     height: 100vh;
@@ -561,7 +562,7 @@ input[type="radio"] {
     margin-top: 20px;
 }
 
-.h1-fresh2{
+.h1-fresh2 {
     font-family: Merriweather, serif !important;
     font-size: 3.90rem;
     line-height: 1.1;
@@ -573,7 +574,7 @@ input[type="radio"] {
 }
 
 
-.p-fresh2{
+.p-fresh2 {
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -582,20 +583,20 @@ input[type="radio"] {
     width: 486px;
 }
 
-.p-fresh2 p{
-    font-family: 'Open Sans',sans-serif;
+.p-fresh2 p {
+    font-family: 'Open Sans', sans-serif;
     line-height: 1.6;
 
 }
 
-.link-fersh-1{
+.link-fersh-1 {
     margin-top: 20px;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.125rem;
     margin-bottom: 50px;
 }
 
-.link-fersh-1 span{
+.link-fersh-1 span {
     border-bottom: 2px solid #f0cf56;
 }
 
@@ -613,7 +614,7 @@ input[type="radio"] {
 }
 
 .button-fresh-2 {
-margin-bottom: 40px;
+    margin-bottom: 40px;
 
 }
 
@@ -935,9 +936,10 @@ margin-bottom: 40px;
 @media screen and (max-width: 690px) {
     .h1-fresh2 {
         font-size: 2.50rem;
-    width: 540px;
+        width: 540px;
 
     }
+
     .fresh-conteudo-2 img {
         width: 600px;
         height: 600px;
@@ -1000,7 +1002,7 @@ margin-bottom: 40px;
         height: 510px;
     }
 
-    .fresh-conteudo-2{
+    .fresh-conteudo-2 {
         align-items: flex-end;
     }
 }
@@ -1125,8 +1127,8 @@ margin-bottom: 40px;
     }
 
     .p-fresh2 {
-    width: 326px;
-}
+        width: 326px;
+    }
 
 }
 
@@ -1244,17 +1246,17 @@ margin-bottom: 40px;
     }
 
     .div-30Off {
-    margin-left: 20px;
-}
+        margin-left: 20px;
+    }
 
-.p-trash {
-    width: 100%;
-}
+    .p-trash {
+        width: 100%;
+    }
 
-.div-30Off {
-    height: 220px;
-    width: 220px;
-}
+    .div-30Off {
+        height: 220px;
+        width: 220px;
+    }
 
 
 }
@@ -1264,7 +1266,7 @@ margin-bottom: 40px;
     .h1-fresh2 {
         width: 250px;
     }
-    
+
 
     .h1-fresh2 {
         font-size: 1.30rem;
@@ -1387,10 +1389,11 @@ margin-bottom: 40px;
     .fresh-conteudo-1 {
         margin-top: 0px;
     }
-    
+
     .fresh-conteudo-2 {
         justify-content: center;
     }
+
     .div-30Off {
         height: 190px;
         width: 190px;
