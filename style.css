@@ -553,7 +553,7 @@ input[type="radio"] {
     background-image: url("Imagem/trash/back-tresh2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: 95% 95%;
     object-fit: cover;
     align-items: center;
     display: flex;
