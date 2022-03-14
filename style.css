@@ -554,10 +554,9 @@ input[type="radio"] {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 78% 78%;
-    background-size: cover;
-
     align-items: center;
     display: flex;
+    height: 100vh;
     justify-content: center;
 }
 
@@ -569,6 +568,7 @@ input[type="radio"] {
     width: 600px;
     text-align: center;
     color: rgba(0, 0, 0, 0.836);
+    margin-top: 40px;
 }
 
 
@@ -609,7 +609,11 @@ input[type="radio"] {
     padding: 13px;
     color: white;
     cursor: pointer;
-    margin-bottom: 30px;
+}
+
+.button-fresh-2 {
+margin-bottom: 40px;
+
 }
 
 
@@ -936,6 +940,10 @@ input[type="radio"] {
     .fresh-conteudo-2 img {
         width: 600px;
         height: 600px;
+    }
+
+    .fresh-container-2 {
+        height: 100%;
     }
 }
 
