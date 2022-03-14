@@ -13,8 +13,7 @@ header {
     background-size: cover;
 }
 
-.input-div,
-.menu-div {
+.input-div,.menu-div {
     margin-top: 20px;
 }
 
@@ -113,8 +112,22 @@ header {
 }
 
 .div-buttons {
+    display: flex;
     margin-bottom: 80px;
+
 }
+
+.div-buttons a button{
+    display: flex;
+    justify-content: center;
+}
+
+.div-buttons a {
+text-decoration: none;
+
+}
+
+
 
 /*------------------------------------------- main ----------------------------------------------------*/
 
@@ -541,6 +554,81 @@ input[type="radio"] {
 
 /* --------------------------------------fresh-container-2-----------------------------------------*/
 
+.footer-conteudo {
+    background-color: #f0cf56;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.h1-footer {
+    text-align: center;
+    width: 550px;
+}
+
+.h1-footer h1 {
+    color: white;
+    letter-spacing: 1px;
+    text-transform: none;
+    font-weight: 700;
+    font-size: 4.5rem;
+    font-family: Merriweather, serif !important;
+}
+
+.p-footer {
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    width: 650px;
+}
+
+.p-footer p {
+    line-height: 1.6;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.div-inputs-footer {
+    margin-top: 20px;
+}
+
+.div-inputs-footer input {
+    background-color: rgba(51, 51, 51, 0);
+    border: 2px solid #12c757;
+    outline: none;
+    font-size: 16px;
+}
+
+.div-inputs-footer button {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    background-color:#12c757;
+    color: white;
+    border: none;
+    font-size: 16px;
+
+}
+
+#finel-b::placeholder{
+    color: rgba(0, 0, 0, 0.548);
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.div-inputs-footer input,button {
+    display: flex;
+    width: 520px;
+    padding: 14px;
+    border-radius: 40px;
+    box-sizing: border-box;
+}
+
 /*-------------------------------------- responsividade --------------------------------------------*/
 
 
@@ -650,6 +738,15 @@ input[type="radio"] {
         width: 350px;
         height: 350px;
 
+    }
+
+    .h1-footer h1 {
+        font-size: 3.0rem;
+    }
+
+    .h1-footer {
+        text-align: center;
+        width: 100%;
     }
 
 }
@@ -868,6 +965,23 @@ input[type="radio"] {
     .fresh-container-2 {
         height: 100%;
     }
+
+    .h1-footer  h1{
+        font-size: 2.90rem;
+    }
+
+    .h1-footer  {
+        width: 500px;
+    }
+
+    .p-footer {
+        width: 500px;
+    }
+
+    .div-inputs-footer input, button {
+        width: 500px;
+    }
+
 }
 
 
@@ -939,6 +1053,22 @@ input[type="radio"] {
     .sorvete-section img {
         width: 310px;
         height: 310px;
+    }
+
+    .h1-footer h1 {
+        font-size: 2.50rem;
+    }
+
+    .p-footer {
+        width: 350px;
+    }
+    
+    .div-inputs-footer input, button {
+        width: 400px;
+    }
+
+    .h1-footer {
+        width: 350px;
     }
 
 }
@@ -1050,6 +1180,13 @@ input[type="radio"] {
         width: 326px;
     }
 
+    .p-footer {
+        width: 300px;
+    }
+
+    .div-inputs-footer input, button {
+        width: 300px;
+    }
 }
 
 @media screen and (max-width: 416px) {
@@ -1178,7 +1315,21 @@ input[type="radio"] {
         width: 220px;
     }
 
+    .h1-footer h1 {
+        font-size: 2.10rem;
+    }
 
+    .h1-footer {
+        width: 260px;
+    }
+
+    .p-footer {
+        width: 260px;
+    }
+
+    .div-inputs-footer input, button {
+        width: 250px;
+    }
 }
 
 @media screen and (max-width: 312px) {
@@ -1254,6 +1405,25 @@ input[type="radio"] {
 
     .texto-fresh {
         margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 306px) {
+
+    .div-inputs-footer input, button {
+        width: 210px;
+    }
+
+    .h1-footer h1 {
+        font-size: 1.90rem;
+    }
+
+    .p-footer {
+        width: 240px;
+    }
+
+    .p-footer {
+        margin-top: 20px;
     }
 }
 
