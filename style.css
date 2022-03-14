@@ -5,6 +5,10 @@
 
 /*------------------------------------------- nav ----------------------------------------------------*/
 
+a{
+  text-decoration: none;
+}
+
 header {
     background-image: url("imagem/laranja-container1.jpeg");
     background-repeat: no-repeat;
@@ -477,6 +481,10 @@ input[type="radio"] {
     padding: 13px;
     color: white;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .sorvete-section img {
