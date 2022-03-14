@@ -550,12 +550,12 @@ input[type="radio"] {
 }
 
 .fresh-container-2 {
-    background-image: url("Imagem/trash/back-tresh2.jpg");
+    background-image: url("Imagem/trash/3351014.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 95% 95%;
-    object-fit: cover;
     align-items: center;
+    background-position: 50% 50%;
+    object-fit: cover;
     display: flex;
     height: 100vh;
     justify-content: center;
