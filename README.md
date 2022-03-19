@@ -22,7 +22,7 @@
 <h3 align="center"><b> 🖥Desktop</b></h3>
 
 <p align="center">
-    <img src="medici2.gif" width="80%" height="80%">
+    <img src="fruta.gif" width="80%" height="80%">
 </p>
 
 <br>
@@ -32,7 +32,7 @@
 <h3 align="center"><b>📱Tablet</b></h3>
 
 <p align="center">
-    <img src="medici-tablete.gif">
+    <img src="fruta-tablete.gif">
 </p
     
 <br>
@@ -42,7 +42,7 @@
 <h3 align="center"><b>📱cell phone</b></h3>
 
 <p align="center">
-    <img src="medici-cell-phone.gif">
+    <img src="fruta-cell.gif">
 </p
 <br>
     
