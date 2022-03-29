@@ -1,4 +1,4 @@
-<p align="center"><img src="imagem/shopping-cart.png" width="70px" height="70px"></p>
+<p align="center"><img src="abacaxi.png" width="70px" height="70px"></p>
 <h1 align="center" ><b>Loja Marketing</b></h1><div>
 
 <h1>🚀Sobre</h1>
