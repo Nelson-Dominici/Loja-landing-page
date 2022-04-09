@@ -28,6 +28,6 @@
 
     
     
-<h1 align="center"><a href="https://nelson-dominici.github.io/Loja-Marketing/">Teste você Mesmo</a></p></h1>
+<h1 align="center"><a href="https://nelson-dominici.github.io/Loja-landing-page/">Teste você Mesmo</a></p></h1>
     
 
