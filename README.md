@@ -19,13 +19,6 @@
 
 </div>
 
-
-<h3 align="center"><b> 🖥Preview</b></h3>
-
-<p align="center">
-    <img src="fruta.gif" width="80%" height="80%">
-</p>
-
     
     
 <h1 align="center"><a href="https://nelson-dominici.github.io/Loja-landing-page/">Teste você Mesmo</a></p></h1>
