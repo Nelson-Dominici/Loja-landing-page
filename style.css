@@ -15,6 +15,7 @@ header {
     background-size: cover;
     background-position: 78% 78%;
     background-size: cover;
+    height: 100vh;
 }
 
 .input-div,.menu-div {
@@ -101,6 +102,7 @@ header {
 
 #button-h-2 img {
     margin-bottom: -6px;
+    margin-right: 5px;
 }
 
 .button-header {
